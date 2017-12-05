@@ -1,0 +1,224 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #636464;
+}
+
+a {
+    color: #0D2A4A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+.intro-2 {
+    background: url("../img/header-bg.jpg")no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+.top-nav-collapse {
+    background-color: #0D2A4A !important; 
+}
+.navbar:not(.top-nav-collapse) {
+    background: #0D2A4A !important;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #0D2A4A !important;
+    } 
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card {
+    background-color: transparent;
+    border-radius: 0px;
+    border: 1px solid;
+}
+
+ .md-form .prefix {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.md-form label {
+    color: #ffffff;
+}
+h6 {
+    line-height: 1.7;
+}
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 820px; 
+    } 
+}
+                
+.view {
+    padding-top: 100px;
+}
+
+#form-register {
+    padding-bottom: 100px;
+}
+
+
+
+.statistic {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #FAFAFA;
+    color: #0D2A4A;
+}
+
+.statistic h1 {
+    font-size: 4em;
+    color: #0D2A4A;
+    font-weight: 100;
+}
+
+.home-about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.home-about .text {
+    padding-top: 30px;
+}
+
+.home-about .space {
+    padding-top: 50px;
+}
+
+@media (max-width: 740px) {
+    .home-about .space {
+    padding-top: 0px;
+    }
+    
+    .home-about .text {
+    padding-top: 0px;
+    }
+    
+    .sec-img {
+    display: none !important;
+    }
+}
+
+.btn {
+  padding: .50rem 1rem;
+  line-height: 1.5;
+  border-radius: 0px;
+  border: 1px solid #0D2A4A;
+  color: #0D2A4A;
+    background-color: transparent;
+}
+
+.btn:hover {
+  padding: .50rem 1rem;
+  line-height: 1.5;
+  border-radius: 0px;
+  border: 1px solid #0D2A4A;
+  color: #fff;
+  background-color: #0D2A4A;
+}
+
+.btn-log {
+    border: 1px solid white;
+    border-radius: 0px;
+    color: white;
+}
+
+footer {
+    padding: 50px;
+    background-color: #fafafa;
+    padding-bottom: 0px;
+}
+
+form .form-control{
+    border-radius: 0px;
+    border: 1px solid #0D2A4A;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+
+.bg-overlay {
+ background: url("../img/header-bg.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 300px;
+     }
+
+.header-about {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/About-Us-Hero-Image.jpg) no-repeat center center;
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+
+.about-body {
+    padding-bottom: 50px;
+}
+
+.card-block {
+    padding: 20px;
+    background-color: white;
+}
+
+.header-careers {
+   position: relative;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/img-4.jpg) no-repeat center center;
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    padding: 200px;
+    color: white;
+    text-align: center;
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+.header-contact {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/img-1.jpg) no-repeat center center;
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    padding: 200px;
+    color: white;
+    text-align: center;
+}
+
+.header-blog {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/blog-header-2.jpg) no-repeat center center;
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
