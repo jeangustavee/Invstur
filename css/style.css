@@ -24,14 +24,14 @@ a:hover {
     color: white;
 }
 .top-nav-collapse {
-    background-color: #0D2A4A !important; 
+    background-color: #ffffff !important; 
 }
 .navbar:not(.top-nav-collapse) {
-    background: #0D2A4A !important;
+    background: #ffffff !important;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background: #0D2A4A !important;
+        background: #ffffff !important;
     } 
 }
 
