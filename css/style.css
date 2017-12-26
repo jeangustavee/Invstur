@@ -56,14 +56,7 @@ main {
 h6 {
     line-height: 1.7;
 }
-@media (max-width: 740px) {
-    .full-height,
-    .full-height body,
-    .full-height header,
-    .full-height header .view {
-        height: 820px; 
-    } 
-}
+
                 
 .view {
     padding-top: 100px;
@@ -164,16 +157,16 @@ form .form-control{
 .header-about {
     position: relative;
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/About-Us-Hero-Image.jpg) no-repeat center center;
-    height: 300px;
+    height: 400px;
     background-size: cover;
     width: 100%;
-    padding: 100px;
+    padding: 200px;
     color: white;
     text-align: center;
 }
 
 .about-body {
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .card-block {
@@ -219,6 +212,55 @@ form .form-control{
     background-size: cover;
     width: 100%;
     padding: 100px;
+    color: white;
+    text-align: center;
+}
+
+ /* Style all font awesome icons */
+.fa {
+    padding: 9px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: #55ACEE;
+} 
+
+/* Twitter */
+.fa-youtube {
+    color: #FF0000;
+} 
+
+.team-body {
+    padding-bottom: 
+}
+
+
+
+.header-team {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/team-cover.jpg) no-repeat center center;
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    padding-top: 200px;
+    padding-left: 20px;
     color: white;
     text-align: center;
 }
